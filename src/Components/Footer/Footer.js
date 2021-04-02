@@ -45,7 +45,7 @@ export default function Footer() {
                   Lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
                 </p>
                 </div>
-                <NavLink className="page-link" to="/about">Read More</NavLink>
+                <NavLink  className="page-link" to="/about">Read More</NavLink>
               </div>
               <div className="col-md-4 col-12 mb-sm-3 mb-md-0 mb-4">
                 <h2 className="footer-body-title">Contact Info</h2>

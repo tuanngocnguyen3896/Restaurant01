@@ -14,12 +14,13 @@ import Header from './Components/Header/Header';
 import ReservationModal from './Components/Modal/ReservationModal';
 import ComingTemplate from './Templates/ComingTemplate';
 import HomeTemplate from './Templates/HomeTemplate';
-
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <ReservationModal/>
+        <ScrollToTop/>
         <Switch>
           <HomeTemplate path="/" exact Component={Home} />
           <HomeTemplate path="/home" exact Component={Home} />

@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactForm.css'
 export default function ContactForm() {
     return (
-        <div className="col-md-6 text-white">
+        <div className="col-lg-6 col-12 text-white col-left">
         {/* <Fade bottom> */}
           <h3>Get In Tough</h3>
           <div className="dots-separator">

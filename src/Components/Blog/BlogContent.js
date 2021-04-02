@@ -1,21 +1,18 @@
 import React from 'react';
 import '../Global/Brush.css'
-import ContactForm from './ContactForm';
-import ContactTable from './ContactTable';
-export default function ContactContent() {
+import BlogSingle from './BlogSingle';
+import '../News/NewsPost.css'
+export default function BlogContent() {
     return (
         <div className="brush container-fluid">
         <div
           className="bg-brush-top"
           style={{ backgroundImage: "url(./img/brush-dec.png)" }}
         ></div>
-        <div className="contact pb-5">
-            <div className="container">
-            <div className="row">
-                <ContactForm/>
-               <ContactTable/>
-            </div>
-            </div>
+        <div>
+            
+                <BlogSingle/>
+            
         </div>
         <div
           style={{ backgroundImage: "url(./img/brush-dec_2.png)", height: 50 }}

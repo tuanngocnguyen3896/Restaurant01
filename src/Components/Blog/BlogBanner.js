@@ -1,20 +1,20 @@
 import React from 'react';
 import '../Global/Banner.css';
 import Fade from 'react-reveal/Fade';
-export default function ContactBanner() {
+export default function BlogBanner() {
     return (
         <div className="banner">
         <div
           className="banner-bg"
-          style={{ backgroundImage: "url(./img/counting-bg.jpg)" }}
+          style={{ backgroundImage: "url(./img/20.jpg)" }}
         >
           <Fade left cascade>
           <div  className="banner-title">
             <div className="content text-center">
               <p className="mb-2">
-                <i>Enjoy your time in our restaurant with pleasure.</i>
+                <i>Our last News and Events</i>
               </p>
-              <h2>Contact Us</h2>
+              <h2>Our Journal</h2>
               <div className="dots-separator">
                 <span></span>
               </div>
