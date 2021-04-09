@@ -14,21 +14,21 @@ export default function ContactTable() {
           <div className="coming-subcribe-form text-white">
             <div className="row mt-5 contact-working-time">
               <div className="col-6 ">
-                <h5 className="contact-date">Sunday to Tuesday</h5>
-                <div className="mt-4">
+                <div>                <h5 className="contact-date">Sunday to Tuesday</h5></div>
+                <div className="mt-4 d-flex flex-column">
                 <span className="contact-time">09:00</span>
                 <span className="contact-time">22:00</span>
                 </div>
               </div>
               <div className="col-6">
-                <h5 className="contact-date">Friday to Saturday</h5>
+                <div>                <h5 className="contact-date">Friday to Saturday</h5></div>
                 <div className="mt-4  d-flex flex-column">
                 <span className="contact-time">11:00</span>
                 <span className="contact-time">22:00</span>
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-lg-5 ">
               <div className="col-8 m-auto text-center">
                 <div className="bold-separator bold-separator_dark">
                   <span className="mt-0"></span>

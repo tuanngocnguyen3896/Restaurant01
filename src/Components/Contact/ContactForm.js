@@ -8,7 +8,7 @@ export default function ContactForm() {
           <div className="dots-separator">
             <span></span>
           </div>
-          <p className="mt-4">
+          <p className="mt-sm-2 mt-md-3 mt-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Officia perspiciatis, magni recusandae esse accusantium hic
             minus eos eveniet quam explicabo, natus repellendus sit corrupti
@@ -70,7 +70,7 @@ export default function ContactForm() {
                 ></textarea>
               </div>
             </div>
-            <div className="text-left my-2">
+            <div className="text-sm-left text-center my-2">
               <button type="submit" className="btn-send-message">Send Message</button>
             </div>
           </form>         

@@ -9,7 +9,7 @@ export default function ContactContent() {
           className="bg-brush-top"
           style={{ backgroundImage: "url(./img/brush-dec.png)" }}
         ></div>
-        <div className="contact pb-5">
+        <div className="contact pb-md-5">
             <div className="container">
             <div className="row">
                 <ContactForm/>

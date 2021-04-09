@@ -6,10 +6,10 @@ export default function BlogComment() {
     const renderComment = () => {
         // console.log(comments);
         return comments.map((com,index) => {
-            return <div key={index} container>
-                             <div className="row mb-4" style={{background: '#303030', padding: '20px 30px'}}>
+            return <div key={index} style={{padding:'10px'}} className="user-comment" >
+                             <div className="row mb-4 p-4" style={{background: '#303030'}}>
                                  <div className="col-2">
-                                     <img src={com.avatar} style={{height:80, borderRadius:'50%'}}></img>
+                                     <img className="avatar" src={com.avatar} style={{height:80, borderRadius:'50%'}}></img>
                                  </div>
                                  <div className="col-10">
                                      <div className="d-flex justify-content-between">

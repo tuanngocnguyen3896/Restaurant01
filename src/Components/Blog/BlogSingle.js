@@ -1,10 +1,9 @@
 import React from "react";
 import BlogComment from "./BlogComment";
 import BlogForm from "./BlogForm";
-
 export default function BlogSingle() {
   return (
-    <div className="container ">
+    <div className="container">
       <div className="news-content row m-auto pb-5">
         <div className="col-md-8 news-post">
           <div className="single-blog">
@@ -17,11 +16,9 @@ export default function BlogSingle() {
                 <span>Receipts</span>
               </div>
             </div>
-            <div className="news-body mt-4">
-              <img
-                className="news-image"
+            <div className="news-body mt-4" className="news-image"
                 style={{ backgroundImage: `url(./img/1.jpg)` }}
-              ></img>
+                alt="news-img">
             </div>
             <div className="news-tag d-flex align-items-center my-4">
               <h3 className="my-0 me-3">TAGS: </h3>
@@ -55,7 +52,7 @@ export default function BlogSingle() {
           <BlogForm />
         </div>
         <div className="col-md-4 news-sidebar text-white">
-          <div>
+          <div className="mt-4 mt-md-0">
             <h2 className="text-center">About Us</h2>
             <div className="news-sidebar-body">
               <img className="sidebar-body-img" src="./img/19.jpg"></img>

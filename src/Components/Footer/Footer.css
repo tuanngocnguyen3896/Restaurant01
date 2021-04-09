@@ -20,6 +20,7 @@
   display: flex;
   width: 240px;
   justify-content: space-around;
+  align-items: baseline;
   padding: 10px 0;
 }
 .footer-social span {
@@ -31,6 +32,7 @@
 }
 .footer-social ul {
   display: flex;
+  align-items: center;
   margin: 0;
   margin-left: auto;
   padding: 0;
@@ -95,6 +97,12 @@
     background: none;
     border-bottom: 1px dotted #c19d60;
 }
+.page-link:focus{
+    color: #fff;
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
 .footer-body-form input{
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -141,11 +149,14 @@
    
 }
 @media only screen and (max-width: 992px) {
+    .footer-logo img{
+        height:20px;
+    }
     .footer-body-title{
         font-size: 16px;
     }
     .footer-body-content,.page-link{
-        font-size: 12px;
+        font-size: 14px;
     }
     .footer-body-contact ul li {
         font-size: 10px;
@@ -159,8 +170,11 @@
     .footer {
         height: 800px;
     }
+    .footer-logo img{
+        height:18px;
+    }
     .footer-body-title{
-        font-size: 16px;
+        font-size: 14px;
     }
     .footer-body-content,.page-link{
         font-size: 12px;
@@ -170,13 +184,71 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .footer-logo img{
+        height:14px;
+    }
+    .footer-social{
+        width: 200px;
+    }
+    .footer-social span{
+        font-size:12px;
+    }
+    .footer-social ul li{
+        line-height:0;
+    }
+    .footer-social ul li a{
+        width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    padding:0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .footer{
+        padding-top:40px;
+        height:620px;
+    }
+    .footer-top{
+        padding-bottom: 20px;
+    }
+    .footer-logo img{
+        height:10px;
+    }
+    .footer-social{
+        width:135px;
+    }
+    .footer-social span{
+        font-size:7px;
+        margin-right: 2px;
+    }
+    .footer-social ul li a{
+        width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 8px;
+    padding:0;
+    }
+    
     .footer-body-title{
-        font-size: 14px;
+        font-size:10px;
     }
-    .footer-body-content,.page-link{
-        font-size: 10px;
+    .footer-body-content, .page-link{
+        font-size:8px;
     }
-    .footer-body-contact ul li {
-        font-size: 8px;
+    .footer-body-contact ul li{
+        font-size:6px;
+    }
+    .footer-body-form input{
+        font-size: 12px;
+        padding:5px;
+    }
+    .footer-body-form .footer-subscribe-btn{
+        font-size:8px;
+        padding:10px 0 7px 0;
+    }
+    .btn-to-top{
+        bottom:1%;
+        right:6%;
     }
 }

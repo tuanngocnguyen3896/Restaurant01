@@ -102,7 +102,7 @@ export default function CartTable(props) {
       <div className="coupon-holder mt-4">
         <div>
           <input onChange={handleChangeCoupon} type="text" name="couponCode" placeholder="code1 or code2 or code3" />
-          <button onClick={usingCoupon} type="submit" className="coupon-btn-apply">
+          <button onClick={usingCoupon} type="button" className="coupon-btn-apply">
             Apply
           </button>
         </div>

@@ -10,3 +10,21 @@
     font-size: 14px;
     color: rgba(255,255,255,0.8);
 }
+
+@media only screen and (max-width: 1200px) {
+   
+}
+@media only screen and (max-width: 992px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 600px) {
+    .user-comment .avatar{
+       height:50px !important;
+   }
+    .user-comment .comment{
+       font-size:10px;
+   }
+}

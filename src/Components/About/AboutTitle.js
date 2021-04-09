@@ -44,6 +44,7 @@ export default function AboutTitle() {
           </div>
         </div>
       </div>
+      
       <div
         style={{ backgroundImage: "url(./img/brush-dec_2.png)", height: 50 }}
         className="bg-brush-bottom"

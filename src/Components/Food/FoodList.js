@@ -54,6 +54,12 @@ export default function FoodList(props) {
         style={{ backgroundImage: "url(./img/brush-dec.png)" }}
       ></div>
       <div className="foodlist_content container pb-5" >
+        <Fade bottom cascade>
+        <div className="dots-separator text-center">
+          <span></span>
+        <h3 className="menu-title">Our Menu</h3>
+        </div>
+        </Fade>
         <FoodFilter/>
         <div className="row mt-5">
          {renderMenu()}

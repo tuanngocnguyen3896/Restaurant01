@@ -34,7 +34,7 @@ export default function NewsPost() {
                         <button className="readmore-btn">Read more</button>
                         <div className="news-counter">
                             <i className="fa fa-eye news-icon"><span>678</span></i>
-                            <i class="fa fa-comment news-icon"><span>10</span></i>
+                            <i className="fa fa-comment news-icon"><span>10</span></i>
                         </div>
                     </div>
                    </div>
@@ -97,7 +97,7 @@ export default function NewsPost() {
                 
                 </div>
                 <div className="col-md-4 news-sidebar text-white">
-                    <div>
+                    <div className="mt-4 mt-md-0">
                     <h2 className="text-center">About Us</h2>
                     <div className="news-sidebar-body">
                         <img className="sidebar-body-img" src="./img/19.jpg"></img>
@@ -146,7 +146,7 @@ export default function NewsPost() {
                     <div className="news-recent-categories mt-4">
                     <h2 className="text-center mb-3">Categories</h2>
                     <div className="recent-categories">
-                    <ul class="categories-item p-0 m-0">
+                    <ul className="categories-item p-0 m-0">
                                                     <li><a href="#">Seafood</a><span>12</span></li>
                                                     <li><a href="#">Receipts</a><span>21</span></li>
                                                     <li><a href="#">Dishes</a><span>34</span></li>
