@@ -51,3 +51,29 @@
 .item3{
   grid-column: 2 / span 2;
 }
+
+@media only screen and (max-width: 1200px) {
+  .gallery-card-wrap img{
+    height:240px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .gallery-card-wrap img{
+    height:200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .gallery-card-wrap img{
+    height:160px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .gallery-card-wrap img{
+    height:120px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .gallery-card-wrap img{
+    height:80px;
+  }
+}

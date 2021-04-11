@@ -69,3 +69,15 @@
         font-size: 12px;
     }
 }
+@media only screen and (max-width: 400px) {
+    .counting {
+        height: 250px;    
+    }
+    .num{
+        font-size: 12px;
+    }
+    .counting-title{
+        font-size: 6px;
+        height:20px;
+    }
+}

@@ -8,7 +8,7 @@ export default function BlogComment() {
         return comments.map((com,index) => {
             return <div key={index} style={{padding:'10px'}} className="user-comment" >
                              <div className="row mb-4 p-4" style={{background: '#303030'}}>
-                                 <div className="col-2">
+                                 <div className="col-2 d-flex justify-content-center">
                                      <img className="avatar" src={com.avatar} style={{height:80, borderRadius:'50%'}}></img>
                                  </div>
                                  <div className="col-10">
@@ -29,7 +29,7 @@ export default function BlogComment() {
     }
     return (
         <div className="single-blog-comment my-5">
-                                 <h3 className="text-left text-white mb-5">Comments ({renderNumberComment()})</h3>
+                                 <h3 className="text-left text-white mb-lg-4 mb-3">Comments ({renderNumberComment()})</h3>
             {renderComment()}         
         </div>
     )

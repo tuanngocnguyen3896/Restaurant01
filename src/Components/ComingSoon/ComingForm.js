@@ -19,7 +19,7 @@ export default function ComingForm() {
               Sign up now to our newsletter and you will be one of the first
               know when our new website as ready
             </span>
-            <form className="mt-2">
+            <form className="mt-4">
               <input
                 name="EMAIL"
                 placeholder="Your Email"
@@ -29,7 +29,7 @@ export default function ComingForm() {
                 Send
               </button>
             </form>
-            <div className="row mt-5">
+            <div className="row mt-lg-5 mt-0">
           <div className="col-8 m-auto text-center">
             <div className="bold-separator bold-separator_dark">
               <span className="mt-0"></span>

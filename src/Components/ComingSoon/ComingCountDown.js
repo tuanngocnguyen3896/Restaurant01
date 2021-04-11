@@ -29,13 +29,12 @@ export default function ComingCountDown() {
             }
         },1000)
     };
-    // componentDidMount
-    useEffect(() => {
-        startTimer();
-        return () => {
-            clearInterval(interval.current)
-        };
-    });
+    // useEffect(() => {
+    //     startTimer();
+    //     return () => {
+    //         clearInterval(interval.current)
+    //     };
+    // });
     return (
     <div
       className="coming-countdown"

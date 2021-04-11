@@ -62,7 +62,7 @@ export default function NewsPost() {
                         <button className="readmore-btn">Read more</button>
                         <div className="news-counter">
                             <i className="fa fa-eye news-icon"><span>304</span></i>
-                            <i class="fa fa-comment news-icon"><span>25</span></i>
+                            <i className="fa fa-comment news-icon"><span>25</span></i>
                         </div>
                     </div>
                    </div>
@@ -90,7 +90,7 @@ export default function NewsPost() {
                         <button className="readmore-btn">Read more</button>
                         <div className="news-counter">
                             <i className="fa fa-eye news-icon"><span>134</span></i>
-                            <i class="fa fa-comment news-icon"><span>40</span></i>
+                            <i className="fa fa-comment news-icon"><span>40</span></i>
                         </div>
                     </div>
                    </div>

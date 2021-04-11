@@ -28,7 +28,7 @@ export default function BlogForm() {
     }
     return (
         <div className="blog-form">
-            <h4 className="my-5 text-white">Leave A Review</h4>
+            <h4 className="my-lg-5 my-2  text-white">Leave A Review</h4>
             <form onSubmit={handleComment}>
                 <div className="row">
                     <div className="col-6">
@@ -41,7 +41,7 @@ export default function BlogForm() {
                         <textarea type="text" name="content" cols="40" rows="3" placeholder="Your Comment" onChange={handleChange} required></textarea>
                     </div>
                 </div>
-                    <button className="add-comment-btn mt-5">Add Comment</button>
+                    <button className="add-comment-btn mt-lg-5 mt-2">Add Comment</button>
             </form>
         </div>
     )

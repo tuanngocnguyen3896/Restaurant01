@@ -192,3 +192,32 @@
         margin-bottom: 20px;
     }
 }
+@media only screen and (max-width:400px) {
+    .chef-title h4 {
+        font-size:8px;
+    }
+    .chef-title h2 {
+        font-size:12px;
+    }
+    .chef .team-info h3{
+        font-size:12px;
+    }
+    .chef .team-info h4{
+        font-size:6px;
+    }
+    .chef .team-info p {
+        font-size:6px;
+    }
+    .chef .team-info:after{
+        font-size:6px;
+    }
+    .chef-footer h4{
+        font-size:8px;
+        margin-bottom: 10px;
+    }
+    .chef-footer .chef-blog-btn{
+        font-size:6px;
+        padding: 3px 8px;
+    }
+
+}

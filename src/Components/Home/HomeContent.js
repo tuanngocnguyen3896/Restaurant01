@@ -13,15 +13,7 @@ export default function HomeContent() {
       <FoodList/>
       <Counting/>
       <OurChef />
-      <div className="row m-0">
-        <div className="col-6 p-0">
-          <ComingForm />
-        </div>
-        <div className="col-6 p-0">
-          <ComingCountDown />
-        </div>
-        <ContactContent/>
-      </div>
+      <ContactContent/>
     </div>
   );
 }

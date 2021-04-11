@@ -19,7 +19,7 @@ export default function CartTable(props) {
           <td className="bg-modify1">
             <img width={40} height={40} src={item.img} alt="item"></img>
           </td>
-          <td>{item.title}</td>
+          <td className="bg-modify2">{item.title}</td>
           <td className="bg-modify1">{item.price}$</td>
           <td className="amount-modify">
             <i
@@ -99,7 +99,7 @@ export default function CartTable(props) {
         <tbody>{renderCartItem()}</tbody>
       </table>
       {/* COUPON */}
-      <div className="coupon-holder mt-4">
+      <div className="coupon-holder mt-3">
         <div>
           <input onChange={handleChangeCoupon} type="text" name="couponCode" placeholder="code1 or code2 or code3" />
           <button onClick={usingCoupon} type="button" className="coupon-btn-apply">
