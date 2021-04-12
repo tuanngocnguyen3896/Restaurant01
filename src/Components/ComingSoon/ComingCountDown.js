@@ -8,7 +8,7 @@ export default function ComingCountDown() {
     let interval = useRef();
     const startTimer = () => {
         const countDownDate = new Date('April 30, 2021 00:00:00').getTime();
-        interval = setInterval(() => {
+        interval.current  = setInterval(() => {
             const now = new Date().getTime();
             const distance = countDownDate - now;
             
@@ -29,12 +29,14 @@ export default function ComingCountDown() {
             }
         },1000)
     };
-    // useEffect(() => {
-    //     startTimer();
-    //     return () => {
-    //         clearInterval(interval.current)
-    //     };
-    // });
+    useEffect(() => {
+      startTimer();
+      return () => {
+            clearInterval(interval.current);
+            interval.current = null;
+        };
+    },[]);
+    
     return (
     <div
       className="coming-countdown"
