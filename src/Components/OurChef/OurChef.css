@@ -219,5 +219,7 @@
         font-size:6px;
         padding: 3px 8px;
     }
-
+    .chef .team-photo:before,.chef .team-photo:after{
+        width:25px;height:25px;
+    }
 }

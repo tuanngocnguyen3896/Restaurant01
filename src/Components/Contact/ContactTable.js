@@ -12,7 +12,7 @@ export default function ContactTable() {
           <p>Call For Reservations</p>
           <h2 className="text-white">Opening Hours</h2>
           <div className="coming-subcribe-form text-white">
-            <div className="row mt-5 contact-working-time">
+            <div className="row mt-lg-5 mt-4 contact-working-time">
               <div className="col-6 ">
                 <div>                <h5 className="contact-date">Sunday to Tuesday</h5></div>
                 <div className="mt-4 d-flex flex-column">

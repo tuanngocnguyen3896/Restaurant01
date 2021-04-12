@@ -87,6 +87,10 @@
       left: -22%;
       top: 40%;
   }
+  .cube{
+    top: -40px;
+    left: 55%;
+  }
 }
 @media only screen and (max-width: 400px) {
    .about-carousel{
@@ -124,5 +128,9 @@
   .carousel-dots .carousel-dot {
     width:5px;
     height:5px;    
+  }
+  .cube{
+    top: -40px;
+    left: 45%;
   }
 }

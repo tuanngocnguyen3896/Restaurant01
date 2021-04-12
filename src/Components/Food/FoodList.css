@@ -240,17 +240,19 @@
     .foodlist-price span{
         font-size:16px;
     }
+    .gallery-filters:before {
+        left: -25%;
+        width: 70px;
+    }
+    .gallery-filters:after {
+        right: -25%;
+        width: 70px;
+    }
 }
 @media only screen and (max-width: 600px) {
     /* Filter button  */
     .btn-gallery-filter{
         font-size: 10px;
-    }
-    .gallery-filters:before {
-        width: 60px;
-    }
-    .gallery-filters:after {
-        width: 60px;
     }
     .btn-gallery-filter:before{
         bottom: 40%;
@@ -276,6 +278,14 @@
     }
     .card-img-wrap img{
         height:200px;
+    }
+    .gallery-filters:before {
+        left: -30%;
+        width: 50px;
+    }
+    .gallery-filters:after {
+        right: -30%;
+        width: 50px;
     }
 }
 @media only screen and (max-width: 400px) {
